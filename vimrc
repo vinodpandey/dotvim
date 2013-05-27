@@ -6,6 +6,11 @@ filetype plugin indent on
 set number
 set backspace=2 " make backspace work like most other apps
 
+set smartindent
+set tabstop=4
+set shiftwidth=4
+set expandtab
+
 " NERDTree configuration
 nmap <silent> <c-n> :NERDTreeToggle<CR>
 let NERDTreeIgnore=['\.pyc$','\~$']
